@@ -21,7 +21,7 @@ console.log(media.toFixed());
 
 if (media < 5){
     console.log('reprovação');
-} else if (media <= 7) {
+} else if (media > 5 && <= 7) {
     console.log('recuperação');
 } else {
     console.log('passou no semestre');
