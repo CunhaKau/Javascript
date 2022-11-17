@@ -20,7 +20,7 @@ IMC em adultos condição:
 
 let peso = 55;
 const altura = 1.73;
-const imc = peso / (altura * altura);
+const imc = peso / Math.pow(altura,2);
 
 if (imc < 18.5){
     console.log('Abaixo do Peso');
