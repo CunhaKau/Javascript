@@ -27,7 +27,5 @@ imc(){
 const jose = new Pessoas ('Jose', 60, 1.75);
 console.log(jose);
 console.log(jose.imc());
-const vitoria = new Pessoas ('Vitoria', 75, 1.55);
-console.log(vitoria);
-console.log(vitoria.imc());
+
 
